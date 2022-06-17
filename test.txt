@@ -1,0 +1,13 @@
+Name: number_of_files_committed
+Level: 10
+Difficulty: *
+There are some files in this repository, how many of the files will be committed?
+2
+
+Name: commit_in_future Level: 20 Difficulty: **
+Commit your changes with the future date (e.g. tomorrow).
+git commit --date="Wed Feb 16 14:00 2037 +0100"
+
+Name: blame Level: 30 Difficulty: **
+Someone has put a password inside the file config.rb find out who it was.
+git blame config.rb
