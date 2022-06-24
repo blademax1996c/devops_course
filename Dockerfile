@@ -13,4 +13,5 @@ ENV FLASK_APP=hello
 
 WORKDIR /opt
 
-ENTRYPOINT ["flask", "run", "--host=0.0.0.0"]
+# ENTRYPOINT ["flask", "run", "--host=0.0.0.0"]
+CMD ["python3 -m hello.py"]
